@@ -1,0 +1,124 @@
+body {
+    background-image: url('bgimage3.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+  .movie_head
+{
+    font-size:20px;
+    padding:6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width:100%;
+    display: inline-block;
+}
+.movie_head i{
+    float: right;
+}
+.movie_text span{
+    color:darkorange;
+}
+
+  #name{
+    font-size: 50px;
+    line-height: 1.2;
+    font-family: 'Cinzel Decorative', cursive;
+
+        
+        font-weight: 800;
+        font-size: 80;
+        font-style: normal;
+        color:rgb(44, 29, 203);
+      }
+#info{
+    font-family: "Sofia", cursive;
+  font-weight: 400;
+  font-style: normal;
+  color:darkblue
+}
+  
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+}
+
+.skills {
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 90%; background-color: #04AA6D;} /* Green */
+.css {width: 80%; background-color: #2196F3;} /* Blue */
+.js {width: 65%; background-color: #f44336;} /* Red */
+.php {width: 60%; background-color: #808080;} /* Dark Grey */
+.aiml {width: 50%; background-color: #411b3f;} /* Dark Grey */
+
+p{
+    font-size: 30;
+    font-weight: bold;
+}
+img
+{
+  width:30px;
+  border-radius: 50%;
+}
+/*contact section*/
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #6aabf9;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
